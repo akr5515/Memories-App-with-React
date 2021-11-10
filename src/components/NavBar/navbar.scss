@@ -1,0 +1,40 @@
+.header {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #008080;
+  .logo{
+    text-decoration: none;
+  }
+  .logo:active{
+    color: sandybrown;
+  }
+  .logo:hover{
+    color:rgb(167, 242, 245);
+  }
+
+}
+
+.lists {
+  display: flex;
+  list-style: none;
+  li {
+    margin-left: 1.5rem;
+    font-size: 1.25rem;
+  }
+  li:hover{
+    color: rgb(167, 242, 245)
+  }
+  a{
+    text-decoration: none;
+  }
+  .list:hover{
+    color: rgb(167, 242, 245)
+  }
+}
+
+.logout{
+  margin-top:-10px;
+  font-size: 20px;
+}
